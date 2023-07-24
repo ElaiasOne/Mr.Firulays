@@ -1,0 +1,36 @@
+Sistema de gestión de clínicas veterinarias
+
+Este proyecto es un programa desarrollado en Python para una veterinaria que permite administrar pacientes y sus consultas. El programa utiliza conceptos de Programación Orientada a Objetos (POO) y ofrece una interfaz de usuario simple en la consola.
+
+
+Funcionalidades principales
+
+El programa cuenta con las siguientes funcionalidades principales:
+
+1. Creación de pacientes: Se pueden agregar nuevos pacientes a la base de datos proporcionando su nombre, edad y raza.
+2. Eliminación de pacientes: Los pacientes existentes pueden ser eliminados de la base de datos.
+3. Registro de consultas: Se pueden agregar consultas médicas a los pacientes existentes.
+4. Listado de pacientes: El programa permite listar todos los pacientes en la base de datos, mostrando su nombre, edad, raza y cantidad de consultas.
+5. Detalle de paciente: Se puede obtener información detallada sobre un paciente específico, incluyendo todas sus consultas registradas.
+6. Alta de tratamiento médico: Se puede marcar a un paciente como "con tratamiento médico" para su seguimiento.
+
+
+Estructura del proyecto
+
+El proyecto está dividido en tres archivos:
+
+1. clases.py: Contiene las clases Veterinaria, Animal, y Paciente.
+2. funciones.py: Contiene las funciones principales del programa, como nuevoPaciente, quitarPaciente, listarPacientes, nuevaConsulta y obtenerDetallePaciente.
+3. main.py: Contiene la función progPrincipal, que ejecuta la interfaz de usuario y proporciona las opciones para interactuar con el sistema.
+
+
+
+Instrucciones de uso
+
+1. Descargar el repositorio a través de Git o descargar los archivos directamente.
+2. Asegurarse de tener Python 3 instalado en su sistema.
+3. Ejecutar el archivo main.py desde la línea de comandos o desde cualquier entorno de desarrollo Python.
+4. El programa mostrará un mensaje de bienvenida y presentará un menú de opciones.
+5. Seleccione una opción ingresando el número correspondiente y siga las instrucciones en pantalla para interactuar con el sistema.
+
+Nota: El programa muestra mensajes de confirmación o error según las acciones que se realicen, y en caso de ingresar opciones inválidas, proporciona mensajes de advertencia para guiar al usuario.
